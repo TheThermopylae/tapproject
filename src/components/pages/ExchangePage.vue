@@ -22,7 +22,20 @@ export default {
 
 <style>
 .exchange {
-    background-color: #4064c9bf;
+    background: radial-gradient(circle, #5c83d5 0%, #4064c9bf 70%);
+
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    /* همان اندازه شما */
+    margin-top: 0.5rem;
+    /* همان حاشیه شما */
+    margin-bottom: 0.5rem;
+    /* همان حاشیه شما */
+    text-shadow: 2px 2px 5px rgba(255, 255, 0, 0.7);
+    /* سایه زرد */
 }
 
 input[type="number"]::-webkit-inner-spin-button,

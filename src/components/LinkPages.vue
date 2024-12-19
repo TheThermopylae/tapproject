@@ -32,7 +32,7 @@
 
 <style>
 .link-page {
-    background: linear-gradient(to left, #2c55c5bf, #595ace, #2c55c5bf);
+    background: linear-gradient(to left, #2c55c5bf, #696bd7, #2c55c5bf);
 }
 </style>
 

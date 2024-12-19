@@ -34,7 +34,6 @@
 
 <style>
 #steps {
-    /* backdrop-filter: blur(5px) saturate(180%); */
     background-color: #4064c9bf;
 }
 </style>
