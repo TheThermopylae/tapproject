@@ -26,10 +26,21 @@ export default {
 <style>
 body {
   height: 100vh;
-  background: url("/public/images/background.png") no-repeat center center;
-  background-size: cover;
+  background: url("/public/images/background.png") no-repeat center/cover;
   overflow: hidden;
 }
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+#app {
+  height: 100%;
+  overflow: hidden;
+}
+
 
 .fade-enter-active,
 .fade-leave-active {

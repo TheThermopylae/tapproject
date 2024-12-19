@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-3 gap-2 px-3 mt-2.5 text-center fixed bottom-5 w-full" id="links-container">
+    <div class="grid grid-cols-3 gap-2 px-3 mt-2.5 text-center fixed bottom-3 w-full" id="links-container">
         <router-link to="/" class="link-page rounded-xl p-1 flex justify-center flex-col items-center shadow-2xl">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="size-6">
@@ -35,3 +35,15 @@
     background: linear-gradient(to left, #2c55c5bf, #595ace, #2c55c5bf);
 }
 </style>
+
+<script>
+window.addEventListener('resize', function () {
+    if (window.innerHeight < 650) {
+        // کیبورد باز است
+        document.getElementById('links-container').style.display = 'none'
+    } else {
+        // کیبورد بسته است
+        document.getElementById('links-container').style.display = 'grid'
+    }
+})
+</script>
