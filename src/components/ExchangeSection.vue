@@ -4,15 +4,8 @@
             <div class="relative">
                 <label for="you-send" class="block text-white">You send</label>
                 <div>
-                    <input 
-                        type="text" 
-                        id="you-send" 
-                        class="w-full outline-none p-3 rounded-lg mt-2 font-bold text-xl"
-                        v-model="sendForamtting"
-                        @input="formatSend"
-                        inputmode="numeric" 
-                        placeholder="Enter amount"
-                    />
+                    <input type="text" id="you-send" class="w-full outline-none p-3 rounded-lg mt-2 font-bold text-xl"
+                        v-model="sendForamtting" @input="formatSend" inputmode="numeric" />
                     <div class="absolute flex items-center top-1/2 right-5 gap-2">
                         <img src="/public/images/coin.png" class="w-8" alt="">
                         <h4 class="font-semibold text-xl">TAPS</h4>

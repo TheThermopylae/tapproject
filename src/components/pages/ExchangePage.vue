@@ -28,14 +28,7 @@ export default {
 
 h1 {
     font-weight: bold;
-    font-size: 3rem;
-    /* همان اندازه شما */
-    margin-top: 0.5rem;
-    /* همان حاشیه شما */
-    margin-bottom: 0.5rem;
-    /* همان حاشیه شما */
-    text-shadow: 2px 2px 5px rgba(255, 255, 0, 0.7);
-    /* سایه زرد */
+    text-shadow: 2px 2px 5px rgba(251, 251, 156, 0.7);
 }
 
 input[type="number"]::-webkit-inner-spin-button,
