@@ -4,7 +4,6 @@
             <div class="relative">
                 <label for="you-send" class="block text-white">You send</label>
                 <div>
-                    <!-- input type="text" به جای number برای امکان فرمت کردن -->
                     <input 
                         type="text" 
                         id="you-send" 
